@@ -1,0 +1,1 @@
+{'n': 1500, 'rate': '$\\log(n)$', 'mu': 7.313220387090301, 'sdp_error': np.int64(3), 'gl_error': np.int64(3)}

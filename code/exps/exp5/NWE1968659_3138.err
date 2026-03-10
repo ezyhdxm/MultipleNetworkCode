@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/var/lib/condor/execute/slot1/dir_1765904/exp5.py", line 121, in <module>
+    result = exp5(n, mu, mu_rate, lambdamin, lambdamin_rate)
+  File "/var/lib/condor/execute/slot1/dir_1765904/exp5.py", line 82, in exp5
+    Mstar, Ustar = g.generate_low_rank_coherent_signal(n, r, eigenvalues=evs, mu=mu)
+  File "/var/lib/condor/execute/slot1/dir_1765904/generator.py", line 78, in generate_low_rank_coherent_signal
+    Q = generate_coherent_orthogonal_vectors(n, r, mu)
+  File "/var/lib/condor/execute/slot1/dir_1765904/generator.py", line 44, in generate_coherent_orthogonal_vectors
+    assert 1 <= mu <= (n/r), "Coherence must be in [1,n/r]"
+AssertionError: Coherence must be in [1,n/r]

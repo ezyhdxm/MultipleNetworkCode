@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/var/lib/condor/execute/slot1/dir_1676183/exp5.py", line 121, in <module>
+    result = exp5(n, mu, mu_rate, lambdamin, lambdamin_rate)
+  File "/var/lib/condor/execute/slot1/dir_1676183/exp5.py", line 88, in exp5
+    Uhat, Mhat = get_Uhat_Mhat(M11, M12, M21, M22, r)
+  File "/var/lib/condor/execute/slot1/dir_1676183/exp5.py", line 47, in get_Uhat_Mhat
+    Uhat1, Mhat1 = get_Uhat_Mhat_util(eigvals_r, U, M21, M22)
+  File "/var/lib/condor/execute/slot1/dir_1676183/exp5.py", line 37, in get_Uhat_Mhat_util
+    G = np.linalg.inv(evs_rinv @ U.T @ M1 @ M2 @ U @ evs_rinv)
+  File "/usr/local/lib/python3.9/site-packages/numpy/linalg/_linalg.py", line 608, in inv
+    ainv = _umath_linalg.inv(a, signature=signature)
+  File "/usr/local/lib/python3.9/site-packages/numpy/linalg/_linalg.py", line 104, in _raise_linalgerror_singular
+    raise LinAlgError("Singular matrix")
+numpy.linalg.LinAlgError: Singular matrix
