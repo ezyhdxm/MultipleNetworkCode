@@ -1,0 +1,8 @@
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+seaborn>=0.12
+
+# Optional: required only for SDP-based support recovery (support_method='sdp').
+# Free academic license available at https://www.mosek.com/
+# Mosek>=10.0

@@ -1,1 +1,0 @@
-{'trunc_error': np.int64(0), 'sdp_error': np.int64(3), 'n': 200, 'm': 10}

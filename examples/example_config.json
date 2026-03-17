@@ -1,0 +1,13 @@
+{
+    "rank": 3,
+    "support_size": 10,
+    "support_method": "sdp",
+    "control": [
+        "data/control_scan1.npy",
+        "data/control_scan2.npy"
+    ],
+    "treatment": {
+        "patient_A": ["data/patient_A_scan1.npy", "data/patient_A_scan2.npy"],
+        "patient_B": ["data/patient_B_scan1.npy"]
+    }
+}
