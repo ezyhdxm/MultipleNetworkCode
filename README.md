@@ -4,7 +4,7 @@ Estimate shared low-rank structure and identify node-level perturbations across 
 
 This tool implements Algorithm 1 from:
 
-> Yan & Levin (2026). *Estimating Multiple Weighted Networks with Node-Sparse Differences and Shared Low-Rank Structure.*
+> Yan & Levin (2025). [*Estimating Multiple Weighted Networks with Node-Sparse Differences and Shared Low-Rank Structure.*](https://arxiv.org/abs/2506.15915) arXiv:2506.15915.
 
 ## Overview
 

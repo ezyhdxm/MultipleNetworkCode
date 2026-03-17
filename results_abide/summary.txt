@@ -1,0 +1,14 @@
+============================================================
+  Multiple Weighted Network Analysis -- Results Summary
+============================================================
+
+  Network size (n):                200
+  Estimated rank (r):              5
+  Eigenvalues:                     [5745.146 3829.437 4782.103  695.526 1535.495]
+  High-coherence nodes excluded:   0
+
+  --- Perturbed Nodes by Group ---
+  ASD: 15 nodes
+    Indices: [17, 26, 29, 31, 44, 85, 86, 141, 147, 154, 161, 186, 189, 196, 197]
+
+============================================================

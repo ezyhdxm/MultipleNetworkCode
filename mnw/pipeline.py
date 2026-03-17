@@ -1,7 +1,7 @@
 """
 Multiple Weighted Network Analysis Pipeline.
 
-Implements Algorithm 1 from Yan & Levin (2026):
+Implements Algorithm 1 from Yan & Levin (2025, arXiv:2506.15915):
   1. Spectral initialization from control-group networks.
   2. Low-coherence row filtering.
   3. Residual computation for treatment-group networks.

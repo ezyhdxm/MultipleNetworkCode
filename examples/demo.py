@@ -2,7 +2,7 @@
 """
 Demo: Multiple Weighted Network Analysis on Synthetic Data.
 
-Generates synthetic networks following the model from Yan & Levin (2026),
+Generates synthetic networks following the model from Yan & Levin (2025),
 runs the full analysis pipeline, and reports the results.
 
 This script validates the pipeline and serves as a usage example.

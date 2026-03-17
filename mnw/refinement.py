@@ -6,7 +6,7 @@ estimators refine the initial spectral estimate of the shared structure M*
 by correcting for coherence-induced bias. The key idea is to use multiple
 observations arranged asymmetrically to construct a bias-corrected eigenspace.
 
-Reference: Sections 5 and Appendix of Yan & Levin (2026).
+Reference: Sections 5 and Appendix of Yan & Levin (2025), arXiv:2506.15915.
 """
 
 import numpy as np
